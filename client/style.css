@@ -1,0 +1,56 @@
+
+.map-row {
+    float: left;
+}
+
+.map-item {
+    min-height: 32px;
+    min-width: 32px;
+    float: left;
+
+}
+
+.map-item-player {
+    background: url("/images/sprite.png");
+    cursor: pointer;
+}
+
+.map-item-player-1 {
+    background-position: 0px 0px;
+}
+
+.map-item-player-2 {
+    background-position: 128px 0px;
+}
+
+.map-item-player-3 {
+    background-position: 128px 127px;
+}
+
+.map-item-player-4 {
+    background-position: -96px 127px;
+}
+
+.map-item-empty {
+    background: #4bc275;
+}
+
+.map-item-box {
+    background: #b3524c;
+    background: url("/images/wall.jpg");
+    background-position: 54px 851px;
+}
+
+.map-item-stone {
+    background: #4485c2;
+    background: url("/images/wall.jpg");
+    background-position: 535px 851px;
+}
+
+.map-item-fire {
+    background: #C21100;
+}
+
+.map-item-bomb {
+    background: #000000;
+}
